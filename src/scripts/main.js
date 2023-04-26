@@ -46,10 +46,9 @@ function exibeElementosDoHeader () {
 
 function abreOuFechaResposta(elemento) {
     const classe = 'faq__questions__item--is-open';
-    const elementoPai = elemento.target.paentNode;
+    const elementoPai = elemento.target.parentNode;
 
     elementoPai.classList.toggle(classe);
-
 }
 
 function removeBotaoAtivo() {
